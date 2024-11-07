@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Archives</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="Styles/Index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <section>
+            <div>
+                <header>
+                    <a class="logo" href="/"><img src="Images/Logo.svg" alt="logo"></a>
+                    <nav>
+                        <ul class="nav__links">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="issue.html">Issue</a></li>
+                            <li><a href="solution.html">Solution</a></li>
+                        </ul>
+                    </nav>
+                    <a class="cta" href="contact.html">Contact</a>
+                    <p class="menu cta">Menu</p>
+                </header>
+                <div class="overlay">
+                    <a class="close">&times;</a>
+                    <div class="overlay__content">
+                        <a href="issue.html">Issue</a>
+                        <a href="solution.html">Solution</a>
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- In Text References -->
+        <!-- Popup Box with References -->
+        <div id="popup-box">
+            <span class="close-btn" onclick="togglePopup()">×</span>
+            <ul>
+            <li>[1] Hughes, T. P., et al. (2017). Coral reefs in the Anthropocene. <em>Nature</em>. <a href="https://doi.org/10.1038/s41586-017-0062-4" target="_blank">https://doi.org/10.1038/s41586-017-0062-4</a></li>
+            <li>[2] Hoegh-Guldberg, O., et al. (2007). Coral reefs under rapid climate change and ocean acidification. <em>Science</em>. <a href="https://doi.org/10.1126/science.1152509" target="_blank">https://doi.org/10.1126/science.1152509</a></li>
+            <li>[3] Wilkinson, C. (2008). Status of Coral Reefs of the World. <em>Global Coral Reef Monitoring Network</em>. <a href="https://gcrmn.net/" target="_blank">https://gcrmn.net/</a></li>
+            <li>[4] Bellwood, D. R., et al. (2004). Confronting the coral reef crisis. <em>Nature</em>. <a href="https://doi.org/10.1038/nature02286" target="_blank">https://doi.org/10.1038/nature02286</a></li>
+            <li>[5] UNEP. (2020). Status of Coral Reefs: The impact of climate change and pollution. <em>UNEP</em>. <a href="https://www.unep.org/resources/report/status-coral-reefs-impacts-climate-change-and-pollution" target="_blank">https://www.unep.org/resources/report/status-coral-reefs-impacts-climate-change-and-pollution</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer with Hamburger Menu -->
+        <footer>
+            <div class="hamburger" onclick="togglePopup()" style="margin-top: -15;">☰</div>
+            <p style="text-align: left; margin-top: -24px; margin-left: 50px;"> Created & Produced By Kang Wei Pean</p>
+            <p style="text-align: right; margin-top: -20px; margin-right: 50px;"> Lego League</p>
+        </footer>
+
+        <script type="text/javascript" src="Javascript/Navigation.js"></script>
+    </body>
+</html>
