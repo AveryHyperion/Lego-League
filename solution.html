@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lego League | Solution</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="Styles/index.css">
+        <link rel="stylesheet" href="Styles/solution.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <section>
+            <div>
+                <header>
+                    <a class="logo" href="index.html"><img src="Images/Logo.svg" alt="logo"></a>
+                    <nav>
+                        <ul class="nav__links">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="issue.html">Issue</a></li>
+                            <li><a href="solution.html">Solution</a></li>
+                            <li><a href="diary.html">Diary</a></li>
+                            <li><a href="model.html">3D Modelling</a></li>
+                        </ul>
+                    </nav>
+                    <a class="cta" href="contact.html">Contact</a>
+                    <p class="menu cta">Menu</p>
+                </header>
+                <div class="overlay">
+                    <a class="close">&times;</a>
+                    <div class="overlay__content">
+                        <a href="about.html">About</a>
+                        <a href="issue.html">Issue</a>
+                        <a href="solution.html">Solution</a>
+                        <a href="diary.html">Diary</a>
+                        <a href="model.html">3D Modelling</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div class="wiki-container">
+            <h1 class="wiki-title">Exciting Topic!</h1>
+            <div class="info-box clearfix">
+                <h3>Quick Facts</h3>
+                <p><strong>Fact 1:</strong> Interesting detail goes here!</p>
+                <p><strong>Fact 2:</strong> Another fun fact!</p>
+                <p><strong>Fact 3:</strong> A bit more information!</p>
+            </div>
+            <div class="section">
+                <h2>Introduction</h2>
+                <p>Our innovation uses AI to sense the temperature of the ocean, tracking it in real time, it them deploys sea foam to block the sunlight before implementing a 'coral nursery' to regrow and develop new coral ecosystems.</p>
+            </div>
+            <div class="section">
+                <h2>Context</h2>
+                <p>In the past, many methods have been implemented in an attempt to combat coral bleaching but none have been incredibly potent/effective. Here are some of them:</p>
+                <ul>
+                    <li>Building sustainable fisheries by patrolling to enforce regulation</li>
+                    <li>Creating new marine protected areas.</li>
+                    <li>Working through local organisations to implement best practises.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>How It Works</h2>
+                <p>We will create a robot that is run by AI; this will sense the temperature of the water, when it is too hot, it ejects nutritional seafoam to block the sunlight.</p>
+                <p>In addition to this, to heal the current sick corals, we are creating a nursery to grow healthy corals. When these are old enough, we will transplant this healthy coral to the unhealthy bleached corals, healing them which helps support corals growing in the reef.</p>
+            </div>
+            <div class="section">
+                <h2>Components</h2>
+                <p>Robot</p>
+                <ul>
+                    <li>A Mini Robot</li>
+                    <li>It uses AI to sense the heat of the coral reef.</li>
+                    <li>When the reef is too hot, it will eject sea foam.</li>
+                </ul>
+                <p>Seafoam/Nutrients</p>
+                <ul>
+                    <li>We will eject sea foam which is thick and opaque enough to block sunlight.</li>
+                    <li>This will hence block out the sun for long enough for the area to cool down.</li>
+                </ul>
+                <p>Coral Nursery</p>
+                <ul>
+                    <li>This creates a small artificial home where we grow healthy corals.</li>
+                    <li>In doing so, we will implant these health corals around the sick corals and this will encourage the reef to grow further after the damage of bleaching.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- In Text References -->
+        <!-- Popup Box with References -->
+        <div id="popup-box">
+            <span class="close-btn" onclick="togglePopup()">×</span>
+            <ul>
+            <li>[1] Hughes, T. P., et al. (2017). Coral reefs in the Anthropocene. <em>Nature</em>. <a href="https://doi.org/10.1038/s41586-017-0062-4" target="_blank">https://doi.org/10.1038/s41586-017-0062-4</a></li>
+            <li>[2] Hoegh-Guldberg, O., et al. (2007). Coral reefs under rapid climate change and ocean acidification. <em>Science</em>. <a href="https://doi.org/10.1126/science.1152509" target="_blank">https://doi.org/10.1126/science.1152509</a></li>
+            <li>[3] Wilkinson, C. (2008). Status of Coral Reefs of the World. <em>Global Coral Reef Monitoring Network</em>. <a href="https://gcrmn.net/" target="_blank">https://gcrmn.net/</a></li>
+            <li>[4] Bellwood, D. R., et al. (2004). Confronting the coral reef crisis. <em>Nature</em>. <a href="https://doi.org/10.1038/nature02286" target="_blank">https://doi.org/10.1038/nature02286</a></li>
+            <li>[5] UNEP. (2020). Status of Coral Reefs: The impact of climate change and pollution. <em>UNEP</em>. <a href="https://www.unep.org/resources/report/status-coral-reefs-impacts-climate-change-and-pollution" target="_blank">https://www.unep.org/resources/report/status-coral-reefs-impacts-climate-change-and-pollution</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer with Hamburger Menu -->
+        <footer>
+            <div class="hamburger" onclick="togglePopup()" style="margin-top: -15;">☰</div>
+            <p style="text-align: left; margin-top: -24px; margin-left: 50px;"> Created & Produced By Kang Wei Pean</p>
+            <p style="text-align: right; margin-top: -20px; margin-right: 50px;"> Lego League</p>
+        </footer>
+
+        <script type="text/javascript" src="Javascript/Navigation.js"></script>
+    </body>
+</html>
