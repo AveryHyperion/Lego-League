@@ -1,0 +1,53 @@
+<section class="graph-section">
+    <h2 class="graph-section-title">Statistics</h2>
+    <div class="graph-wrapper">
+        <div class="graph-container">
+            <svg viewBox="0 0 520 300" class="graph" id="graph">
+                <!-- X and Y axis lines -->
+                <line x1="70" y1="250" x2="470" y2="250" class="axis" />
+                <line x1="70" y1="250" x2="70" y2="50" class="axis" />
+
+                <!-- X-axis increments and labels -->
+                <line x1="170" y1="250" x2="170" y2="255" class="tick" />
+                <text x="170" y="270" class="tick-label">1930</text>
+
+                <line x1="270" y1="250" x2="270" y2="255" class="tick" />
+                <text x="270" y="270" class="tick-label">1960</text>
+
+                <line x1="370" y1="250" x2="370" y2="255" class="tick" />
+                <text x="370" y="270" class="tick-label">1990</text>
+
+                <line x1="470" y1="250" x2="470" y2="255" class="tick" />
+                <text x="470" y="270" class="tick-label">2010</text>
+
+                <!-- Y-axis increments and labels -->
+                <line x1="65" y1="200" x2="70" y2="200" class="tick" />
+                <text x="50" y="200" class="tick-label">-0.5</text>
+
+                <line x1="65" y1="150" x2="70" y2="150" class="tick" />
+                <text x="50" y="150" class="tick-label">0</text>
+
+                <line x1="65" y1="100" x2="70" y2="100" class="tick" />
+                <text x="50" y="100" class="tick-label">0.5</text>
+
+                <line x1="65" y1="50" x2="70" y2="50" class="tick" />
+                <text x="50" y="50" class="tick-label">1.0</text>
+
+                <!-- Graph line with updated points to match image -->
+                <polyline points="
+                    70,230 90,225 110,215 130,220 150,210 170,205 
+                    190,200 210,195 230,190 250,185 270,180 290,175 
+                    310,170 330,165 350,160 370,155 390,150 410,145 
+                    430,140 450,135 470,130" class="graph-line" />
+
+                <!-- Axis labels -->
+                <text x="490" y="255" class="axis-label">Years</text>
+                <text x="-120" y="40" class="axis-label" transform="rotate(-90 20,40)">Temperature Anomaly (°C)</text>
+            </svg>
+        </div>
+        <div class="graph-description">
+            <h3 class="graph-description-title">Australia's Surrounding Ocean Temperatures</h3>
+            <p>Australia's surrounding oceans have gradually warmed since 1910. This warming results in coral bleaching and reduces the coral population.</p>
+        </div>
+    </div>
+</section> 

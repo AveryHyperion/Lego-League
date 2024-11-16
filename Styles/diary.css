@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e4; /* Soft beige background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.diary {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e3c29b; /* Matching soft warm color */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #7a5c45; /* Darker warm color on hover */
+    color: #fff;
+}
+
+.header {
+    background-color: #e3c29b; /* Soft warm color */
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #7a5c45; /* A warm accent color */
+}
+
+.list {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #7a5c45;
+}
+
+.video-link {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.video-link:hover {
+    color: #005bb5;
+}
+
+.run {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+  
+.half-width-image {
+    width: 50%; /* Adjust the width to fit side by side with some space */
+    object-fit: cover; /* Optional: maintains aspect ratio and covers area */
+}
+  
+
+.run-red { background-color: #ff4d4d; } /* Code 1 - Red */
+.run-yellow { background-color: #ffff66; color: #333; } /* Code 2 - Yellow */
+.run-turquoise { background-color: #40e0d0; color: #333; } /* Code 3 - Turquoise */
+.run-teal { background-color: #008080; color: #fff; } /* Code 4 - Teal */
+.run-green { background-color: #00ff00; color: #333; } /* Code 5 - Green */
+.run-blue { background-color: #0000ff; color: #fff; } /* Code 6 - Blue */
+.run-grey { background-color: #808080; color: #fff; } /* Code 7 - Grey */
+.run-pink { background-color: #ff66cc; color: #fff; } /* Code 8 - Pink */
+.run-violet { background-color: #8a2be2; color: #fff; } /* Code 9 - Violet */
+.run-black { background-color: #000000; color: #fff; } /* Code 10 - Black */
+.run-gold { background-color: #ffd700; color: #333; } /* Code 11 - Gold */
+.run-maroon { background-color: #800000; color: #fff; } /* Code 12 - Maroon */
+
+.highlight-red {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-yellow {
+    background-color: #ffff66;
+    color: #333;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-turquoise {
+    background-color: #40e0d0;
+    color: #333;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-teal {
+    background-color: #008080;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-green {
+    background-color: #00ff00;
+    color: #333;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-blue {
+    background-color: #0000ff;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-grey {
+    background-color: #808080;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-pink {
+    background-color: #ff66cc;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-violet {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-black {
+    background-color: #000000;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-gold {
+    background-color: #ffd700;
+    color: #333;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
+.highlight-maroon {
+    background-color: #800000;
+    color: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 8px;
+}
+  
